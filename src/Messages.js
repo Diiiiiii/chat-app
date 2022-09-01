@@ -30,6 +30,7 @@ class Messages extends Component {
           <div className="text">{text}</div>
         </div>
       </li>
+      
     );
   }
 }
