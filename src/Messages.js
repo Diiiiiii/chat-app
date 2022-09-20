@@ -1,7 +1,15 @@
 import {Component} from "react";
 import React from "react";
+import ReactDOM from "react-dom";
 
 class Messages extends Component {
+
+  componentDidUpdate() {
+    const node = ReactDOM.findDOMNode(this)
+    node.scrollTop = node.scrollHeight
+
+}
+
   render() {
     const {messages} = this.props;
     return (
