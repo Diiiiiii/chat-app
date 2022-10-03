@@ -68,9 +68,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className="App-header">
-          <h1 className="text-3xl underline">My Chat App</h1>
+        <div className="whitespace-normal relative h-15 m-10 text-sm bg-white py-10 px-20 shadow rounded-xl">
+        <h1 className="text-xl inline-block "> Welcome to Chat App made for the course in Algebra School!</h1> 
         </div>
+        <div className="p-3 w-full text-center bg-white">
+        <img className="w-10 h-10 inline-block absolute invisible rounded-full"
+                src="https://imgur.com/1pJFxBZ" alt="username" /> 
+          <span className="right block ml-2 font-bold text-gray-600">Dija Dijanić</span>
+         </div>    
+              
         <Messages
           messages={this.state.messages}
           currentMember={this.state.member}

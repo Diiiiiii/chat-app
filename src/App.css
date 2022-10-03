@@ -3,10 +3,11 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  background-color: rgb(243, 244, 246);
 }
 
 .App-header {
-  background-color: #262626;
+  background-color: #ec4848;
   overflow: visible;
   width: 100%;
   text-align: center;
@@ -84,15 +85,15 @@ input {
   padding: 5px;
   font-size: 16px;
   border-radius: 8px;
-  border: 1px solid orangered;
+  border: 1px solid #ec4848;
   flex-grow: 1;
 }
 
 button {
   padding: 5px 10px;
   font-size: 16px;
-  background-color: orangered;
-  color: white;
+  background-color: #fca5a5;
+  color: black;
   border: none;
   border-radius: 8px;
   margin-left: 10px;
